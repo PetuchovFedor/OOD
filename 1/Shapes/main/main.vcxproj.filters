@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shapes">
+      <UniqueIdentifier>{6777af82-e6dd-49eb-a246-d04534db2d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shapes\ShapesStrategies">
+      <UniqueIdentifier>{5de21872-bb66-4a8f-8686-b764a6929eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{9238f761-ccd7-4f4c-8aa7-501a8df5cba5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureController.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="IShapeStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="LineStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="TextStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleStrategy.h">
+      <Filter>shapes\ShapesStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureController.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

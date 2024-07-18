@@ -1,0 +1,24 @@
+SetTitle Pattern Command
+InsertImage end 200 200 D:\Fedya\ParallelProgramming\4\lw4\in2.bmp
+InsertParagraph end qwewwrq <asfas>
+InsertImage end 300 300 D:\User Files\Pictures\img1.jpg
+List
+InsertParagraph 2 asdfgh&& "ueqi"
+List
+InsertImage 1 250 250 D:\Fedya\Карта зв. неба.jpg
+List
+Undo
+List
+Redo
+List
+ReplaceText 3 1234567890
+ResizeImage 1 400 400
+InsertImage 1 250 250 D:\Fedya\Карта зв. неба.jpg
+Undo
+InsertParagraph end "qwe<hjasdk  >>'"
+List
+DeleteItem 5
+List
+Undo
+List
+Save D:\Fedya\OOD\Лабы\5\ToEditor\out.html

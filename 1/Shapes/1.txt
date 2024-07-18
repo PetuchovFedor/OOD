@@ -1,0 +1,25 @@
+AddShape sh1 #7b001c circle 100 110 55
+DrawShape sh1
+MoveShape sh1 150 150
+AddShape sh2 #123456 rectangle 10 20 300 400
+DrawPicture
+ChangeColor sh2 #7b001c
+AddShape ln1 #000000 line 0 50 400 400
+DrawShape ln1
+ChangeShape ln1 circle 50 210 45
+DrawShape ln1
+List
+DeleteShape ln1
+List
+AddShape tr1 #00fefe triangle 100 150 60 60 80 210
+DrawShape tr1
+AddShape txt1 #00fefe text 400 300 25 Hello
+DrawShape txt1
+List
+MovePicture 100 100
+List
+DrawPicture
+ChangeShape sh1 text 400 100 30 WORLD
+ChangeColor sh1 #123456
+List
+DrawShape sh1

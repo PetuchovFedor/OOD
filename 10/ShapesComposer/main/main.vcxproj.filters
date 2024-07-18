@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{98a97b61-f0d2-42c9-8499-d75c2575842c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView">
+      <UniqueIdentifier>{b4da1cbf-8070-4e98-9386-c775d030a689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView\Canvas">
+      <UniqueIdentifier>{d7c2ff86-b946-4647-9edc-6f1b5f704657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView\MainFrame">
+      <UniqueIdentifier>{8130b67e-a960-44cc-86e4-836514bd4fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView\ViewShape">
+      <UniqueIdentifier>{f6051a29-416b-4c7e-85a8-b5cf356f0061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView\ResizingMarker">
+      <UniqueIdentifier>{b7eeb575-f31e-4375-8707-aca254a00c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxView\ViewShapeFactory">
+      <UniqueIdentifier>{fef35489-99a5-4c95-ae97-0f81882b40af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{c1a286ad-85bb-42ee-a42f-18366acbe530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\ShapeControllers">
+      <UniqueIdentifier>{d3fdf46c-a84e-4d30-a874-7cec6fd030c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\PictureControllers">
+      <UniqueIdentifier>{9a218b20-f281-46b4-ba4c-cb82e23f4a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\History">
+      <UniqueIdentifier>{9de2e4d1-75ed-49a0-87f2-0d34d13deb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\History\Commands">
+      <UniqueIdentifier>{04c23b33-1f63-4f7a-af2d-8e2cbd666c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Picture">
+      <UniqueIdentifier>{7d84f5d9-5257-4c74-b986-c21051965096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Observer">
+      <UniqueIdentifier>{3bc81902-4606-4645-9b3e-c00dd3a98395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\PictureItems">
+      <UniqueIdentifier>{c0505299-31b8-43a3-b732-46ac11b01b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\PictureItems\Shape">
+      <UniqueIdentifier>{6d772a6d-b58f-4480-a62a-11ecf9f6b8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\PictureItems\Image">
+      <UniqueIdentifier>{e87b82d7-5774-44c5-ac99-e599bb03f4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\PictureItems\CItems">
+      <UniqueIdentifier>{801d62e1-81b6-4b48-bc37-576e57e4ce7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonTypes.h">
+      <Filter>Model\PictureItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>wxView\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>wxView\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="wxViewItem.h">
+      <Filter>wxView\ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="wxViewTriangle.h">
+      <Filter>wxView\ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="wxViewRectangle.h">
+      <Filter>wxView\ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="wxViewEllipse.h">
+      <Filter>wxView\ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizingMarker.h">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftTopMarker.h">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTopMarker.h">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="RightBottomMarker.h">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftBottomMarker.h">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewShapeFactory.h">
+      <Filter>wxView\ViewShapeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainFrameController.h">
+      <Filter>Controllers\PictureControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewItemController.h">
+      <Filter>Controllers\ShapeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CViewItemController.h">
+      <Filter>Controllers\ShapeControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IMainFrameController.h">
+      <Filter>Controllers\PictureControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCanvasController.h">
+      <Filter>Controllers\PictureControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Model\History</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractCommand.h">
+      <Filter>Model\History</Filter>
+    </ClInclude>
+    <ClInclude Include="CHistory.h">
+      <Filter>Model\History</Filter>
+    </ClInclude>
+    <ClInclude Include="AddItemCommand.h">
+      <Filter>Model\History\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteItemCommand.h">
+      <Filter>Model\History\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CPicture.h">
+      <Filter>Model\Picture</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Model\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureData.h">
+      <Filter>Model\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapTwoValuesCommand.h">
+      <Filter>Model\History\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CShape.h">
+      <Filter>Model\PictureItems\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="IShape.h">
+      <Filter>Model\PictureItems\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="IPictureItem.h">
+      <Filter>Model\PictureItems</Filter>
+    </ClInclude>
+    <ClInclude Include="IImage.h">
+      <Filter>Model\PictureItems\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>Model\PictureItems\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CPictureItemAndHistory.h">
+      <Filter>Model\PictureItems</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeFactory.h">
+      <Filter>Model\PictureItems\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageFactory.h">
+      <Filter>Model\PictureItems\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanvasController.h">
+      <Filter>Controllers\PictureControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="wxViewImage.h">
+      <Filter>wxView\ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="CItems.h">
+      <Filter>Model\PictureItems\CItems</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageAndHistory.h">
+      <Filter>Model\PictureItems\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeAndHistory.h">
+      <Filter>Model\PictureItems\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateRandomString.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>wxView\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>wxView\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="wxViewItem.cpp">
+      <Filter>wxView\ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizingMarker.cpp">
+      <Filter>wxView\ResizingMarker</Filter>
+    </ClCompile>
+    <ClCompile Include="CPicture.cpp">
+      <Filter>Model\Picture</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateRandomString.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

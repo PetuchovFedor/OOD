@@ -1,0 +1,14 @@
+out.svg
+AddShape rect 1 1 1000 1000 #00c8ffb3 1 #00c8ffb3
+AddShape rect 1 800 1000 200 #00ff00ff 5 #00ff00bf
+AddShape rect 170 500 400 400 #6e5e43f5 10 #6e5e43fc
+AddShape triangle 170 300 400 200 #ffff00ff 15 #ffff2bfa
+AddShape ellipse 270 600 100 100 #6e5e43f5 15 #bbe7d2ff
+GroupShapes 3 1 4 2 5 3
+List
+DrawSlide
+ChangeFrame 3 370 700 200 200
+ChangeLineColor 3 #00fff0ff
+ChangeLineThickness 3 30
+ChangeFillColor 3 #ff0000ff
+DrawShape 3
